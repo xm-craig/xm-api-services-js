@@ -4,7 +4,7 @@
   "description": "Node.js client library for xMatters API services.",
   "author": "xMatters Inc.",
   "main": "./lib",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,10 +19,8 @@
   ],
   "dependencies": {
     "backoff": "^2.5.0",
-    "bluebird": "^3.5.1",
-    "merge": "^1.2.0",
-    "request": "^2.87.0",
-    "request-promise": "^4.2.2"
+    "merge": "^2.1.1",
+    "needle": "^3.0.0"
   },
   "files": ["lib"]
 }
